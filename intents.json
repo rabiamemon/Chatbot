@@ -1,32 +1,32 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Chatty here! How may I assist you?", "Hey Sir, How can I help?", "Welcome to Melting Retreats! How can I help you?", "Want some chocolate chip cookies and a coffee? Do-nut go anywhere!"],
          "context_set": ""
         },
         {"tag": "goodbye",
          "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "We hope to see you again", "Want to try some freshly baked caramel cookies before you go?", "Have a sweet day!", "Indulge in the goodness, bye!"],
          "context_set": ""
         },
         {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
+         "patterns": ["how old is the shop", "how old", "what is your age", "how old are you", "age?"],
+         "responses": ["We're 18 years old!", "18 years young!", "Yumilicious-old", "Young enough to eat all cookies on the SALE, want to try?"],
          "context_set": ""
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "responses": ["You can call me Chatty", "I'm Chatty!", "I'm Chatty aka sweetness personified"],
          "context_set": ""
         },
         {"tag": "shop",
          "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!", "want some chocolate chip cookies and coffee?", "caramel cookies?"],
          "context_set": ""
         },
         {"tag": "hours",
          "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "responses": ["We are open 7am-4pm Monday-Friday!", "All days, except weekends!", "You can always find us in your heart"],
          "context_set": ""
         }
    ]
